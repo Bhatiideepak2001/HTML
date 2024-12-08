@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+          * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      ul {
+        background-color: #9c98d2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 25px;
+        list-style: none;
+        gap: 20px;
+        padding: 7px;
+        
+      }
+     
+    a {
+        text-decoration: none;
+        font-family: cursive;
+        color: rgb(12, 6, 8);
+        padding:3px 20px;
+    }
+    li{
+        padding: 7px 60px;;
+        transition: 1s;
+    }
+    li:hover{
+        background-color:#7b75c2;
+        border-radius: 10px;
+        border: none;
+    }
+      .welcome {
+        height: 500px;
+        object-fit:cover;
+        width: 100%;
+        overflow: hidden;
+      }
+      .welcome img {
+        height:500px;
+        width: 100%;
+        transition: 0.5s;
+      }
+      img:hover {
+        transform: scale(1.1);
+      }
+      p{
+        background-color: #7b75c2;
+        font-size:20px;
+        font-weight: bold;
+        font-family:monospace;
+        padding: 10px;
+        word-spacing:10px;
+        line-height: 40px;
+        
+      }
+
+    h1{
+      background-color: #9c98d2;
+      padding:20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    ::selection{
+      color: wheat;
+      background-color: rgba(0, 0, 0, 0.712);
+    }
+ 
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="About.html">ABOUTME</a></li>
+        <li><a href="Portfolio.html">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+
+    <div class="welcome">
+      <img src="welcome.avif" alt="" />
+    </div>
+
+    <div class="desc">
+      <h1>Popular Hindu Festivals in India 2024</h1>
+      <hr>
+      <p>
+        Hindu religious festivals are celebrated in all states of India, some of
+        which are celebrated at the regional level while others are celebrated
+        at the national level. Since India has a vibrant and diverse mix of
+        states, each with its own language, customs, and festivals, the Hindu
+        festivals themselves can be distinct for each state while some festivals
+        are celebrated across the country. Some examples of such national-level
+        Hindu festivals are Diwali, Ganesh Chaturthi, Navratri, Maha Shivaratri,
+        etc. Some examples of regional Hindu festivals are Vishu, Karva Chauth,
+        Ugadi, etc. These festivals are a great way to bring families, friends,
+        and communities together and honor the ancestral traditions of Hindu
+        culture.
+      </p>
+    </div>
+  </body>
+</html>
