@@ -1,0 +1,111 @@
+@media (max-width: 500px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .sub-head{
+        justify-content: center;
+    }
+    .sub-head-text {
+        display: none;
+    }
+    .navbar {
+        position: relative;
+        color: #1a1a1a;
+        background-color: white;
+        padding: 0 40px;
+        box-shadow: 0px 2px 6px 3px #0008;
+    }
+    .logo {
+        color: #1a1a1a;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .ham-bar {
+        display: block;
+    }
+    .hero-container {
+        padding-top: 170px;
+    }
+    .hero {
+        padding: 0 6px;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .slider{
+        gap: 10px;
+        justify-content: center;
+    }
+    .slider-btn {
+        display: none;
+    }
+    .card-info p {
+        width: 38ch;
+    }
+    .services {
+        padding-top: 140px;
+    }
+    .upcoming-meeting-section {
+        margin-top: -881px;
+    }
+    .upcoming-meeting-container {
+        padding-top: 935px;
+        padding-inline: 10px;
+    }
+    .up-meetings {
+        justify-content: center;
+    } 
+    .up-meetings .meeting-catgories  {
+        flex-basis: 100%;
+    }
+    .meeting-catgories .catgories {
+        align-items: center;
+    }
+    .meeting-img img {
+        width: 460px;
+    }
+    .education-container{
+        padding: 0 10px;
+    }
+    .course-section{
+        padding: 80px 10px;
+    }
+    .item {
+        width: 450px;
+    }
+    .item img {
+        width: 450px;
+        margin: 0;
+    }
+    .m-dot {
+        display: inline-block;
+    } 
+    .facts {
+        gap: 3.4rem;
+    }
+    .our-facts {
+        padding: 0  10px;
+    }
+    .facts-statics {
+        flex-basis: 100%;
+    }
+    .stat-item {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .fact-video-item {
+        margin: 0;
+    }
+    .video-item {
+        flex-basis: 100%;
+    }
+    .contact-us-section {
+        padding: 0 10px;
+    }
+    .form-area .input-fild {
+        flex-wrap: wrap;
+    }
+    
+}
