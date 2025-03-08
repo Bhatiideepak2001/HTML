@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <P class="FILTER">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, molestias nemo mollitia aperiam blanditiis porro dolore officiis consequuntur, accusamus voluptate dolor earum vero illum eaque tempora, soluta laudantium commodi voluptatum odit quos tempore quas dolorum quaerat similique. Deserunt ea illum necessitatibus eius voluptatem? Perspiciatis, dolores quo. Vel rem deleniti omnis quaerat tenetur est maxime placeat dicta, eum ipsam, perferendis eligendi impedit nihil eaque expedita odit quo accusantium iure vitae excepturi cupiditate. Omnis cum voluptatibus nisi. Aliquam quia numquam beatae, quidem voluptate aperiam at deserunt, perspiciatis voluptatibus assumenda ipsam architecto. Aperiam dolorem error dolorum quae laudantium architecto molestiae asperiores numquam voluptates.</P>
+    <div class="not">
+    <img src="eagle.jpg" alt="" width="100%">
+    </div>
+    <P class="FILTER">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, molestias nemo mollitia aperiam blanditiis porro dolore officiis consequuntur, accusamus voluptate dolor earum vero illum eaque tempora, soluta laudantium commodi voluptatum odit quos tempore quas dolorum quaerat similique. Deserunt ea illum necessitatibus eius voluptatem? Perspiciatis, dolores quo. Vel rem deleniti omnis quaerat tenetur est maxime placeat dicta, eum ipsam, perferendis eligendi impedit nihil eaque expedita odit quo accusantium iure vitae excepturi cupiditate. Omnis cum voluptatibus nisi. Aliquam quia numquam beatae, quidem voluptate aperiam at deserunt, perspiciatis voluptatibus assumenda ipsam architecto. Aperiam dolorem error dolorum quae laudantium architecto molestiae asperiores numquam voluptates.</P>
+    <div class="not">
+    <img src="leave.avif" alt="" width="100%">
+    </div>
+    <P class="FILTER">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, molestias nemo mollitia aperiam blanditiis porro dolore officiis consequuntur, accusamus voluptate dolor earum vero illum eaque tempora, soluta laudantium commodi voluptatum odit quos tempore quas dolorum quaerat similique. Deserunt ea illum necessitatibus eius voluptatem? Perspiciatis, dolores quo. Vel rem deleniti omnis quaerat tenetur est maxime placeat dicta, eum ipsam, perferendis eligendi impedit nihil eaque expedita odit quo accusantium iure vitae excepturi cupiditate. Omnis cum voluptatibus nisi. Aliquam quia numquam beatae, quidem voluptate aperiam at deserunt, perspiciatis voluptatibus assumenda ipsam architecto. Aperiam dolorem error dolorum quae laudantium architecto molestiae asperiores numquam voluptates.</P>
+    
+    <SCRipt>
+
+        $(document).scroll(scrl).filter('.FILTER')
+        function scrl()
+        {
+            $('p').css({
+            'background':'darkcyan',
+            'border':'3px solid blue',
+            'line-height':'30px',
+            'padding':'7px'
+        })
+        }
+        $(document).scroll(div).not(".not")
+        function div(){
+            $('img').css({
+        'filter':'invert(20%)',
+        'height':'400px',
+        'width':'60%',
+        'border':'20px groove darkviolet',
+        'transform':'translateX(30%)'
+        })
+        }
+    </SCRipt>
+</body>
+</html>

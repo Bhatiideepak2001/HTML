@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="inner-script/script.js"></script>
+    <style>
+        .main {
+            width:60%;
+            margin:50px auto;
+
+        }
+
+        button{
+            padding:4px 20px;
+            font:20px bold;
+            transform: translateX(25rem);
+            margin: 0px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://png.pngtree.com/background/20230517/original/pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-picture-image_2634113.jpg" alt="" width="100%">
+    </div>
+    <button class="fade-in">fade-in</button>
+    <button class="fade-out">fade-out</button>
+    <button class="fade-to">fade-to</button>
+    <button class="fade-toggle">fade-toggle</button>
+    <script>
+       $('.fade-in').dblclick(inn)
+       function inn(){
+        $('img').fadeIn(1000)
+       }
+       $('.fade-out').mouseenter(out)
+       function out(){
+        $('img').fadeOut()
+       }
+       $('.fade-to').mouseenter(To)
+       function To(){
+        $('img').fadeTo(2000,0.70)
+       }
+       $('.fade-toggle').dblclick(Toggle)
+       function Toggle(){
+        $('img').fadeToggle(10)
+       }
+       $('img').dblclick(slide)
+       function slide(){
+        $('img').slideToggle(2000)
+       }
+
+    </script>
+</body>
+</html>

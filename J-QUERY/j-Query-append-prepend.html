@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="inner-script/script.js"></script>
+</head>
+<body>
+    <p>This is a paragraph</p>
+    <button class="btn1">ADD APPEND</button><br><br>
+
+    <span>Span for Prepend tag</span><br><br>
+    <button class="btn2">ADD PREPEND</button>
+    <script>
+        $('.btn1').click(append)
+        function append(){
+            $('p').append('<b>This is a append paragraph</b>')
+        }
+
+        $('.btn2').click(PREPEND)
+        function PREPEND(){
+            $('span').prepend('👉')
+        }
+    </script>
+</body>
+</html>

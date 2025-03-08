@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="eagle.jpg" alt=""><BR>
+    <button class="btn1">HIDE</button>
+    <button class="btn2">SHOW</button>
+
+    <script>
+        $('.btn1').dblclick(hid)
+        function hid(){
+            $('img').hide()
+        }
+        $('.btn2').dblclick(shw)
+        function shw(){
+            $('img').show()
+        }
+    </script>
+</body>
+</html>
