@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>      
+    <script>
+
+    let num = 1;
+    let sum_even = 0;
+    while (num <=20) 
+    {
+        sum_even = sum_even + num;
+        if(num % 2 == 0)
+        {
+            document.write("num "+ num +" is : even <br>");
+            
+        }
+        else {
+            document.write("num "+ num+" is : odd <br>");
+        }
+        num++;
+    }
+    document.write("<br>total sum of even numbers == "+ sum_even)
+    </script>
+    </body>
+</html>
