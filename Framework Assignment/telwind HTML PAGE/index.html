@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Redesigned Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <img src="image/logo.png" class="w-[100px]" alt="">
+      <nav class="hidden md:flex space-x-6">
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Home</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Shop</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Services</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
+      </nav>
+      <!-- Mobile menu icon -->
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-indigo-600 focus:outline-none">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-[url(./image/sale.jpg)] bg-center bg-no-repeat bg-cover min-h-100">
+    <div class="container mx-auto px-4 text-center py-20">
+      <h2 class="text-[3rem] font-bold text-white mb-10">Welcome to Online Shopping </h2>
+      <p class="text-[1.2rem] text-red-700 font-bold mb-20">Great Summer Sale is over Thank you for shopping with us</p>
+      <a href="#" class="bg-red-700 text-white px-6 py-3 rounded hover:bg-indigo-700 transition">Get Started</a>
+    </div>
+  </section>
+  <!-- Features Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <img src="image/ts-1.webp" alt=""class="aspect-4/4">
+        <p class="text-gray-600 mt-3">SUNGLOW MATTY TSHIRT</p>
+        <h3 class="text-xl font-semibold mt-2">₹252</h3>
+        <button class="bg-blue-500 px-3 mt-3 py-2 rounded-[10px] text-white font-bold" >ADD TO CARD</button>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <img src="image/sh.webp" alt="">
+        <p class="text-gray-600 mt-3">Youth First Men's Solid Spread Collar Black Shirts</p>
+        <h3 class="text-xl font-semibold mb-2">₹422</h3>
+        <button class="bg-blue-500 px-3 mt-3 py-2 rounded-[10px] text-white font-bold" >ADD TO CARD</button>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <img src="image/sh1.webp" class="aspect-4/4" alt="">
+        <p class="text-gray-600 mt-3">kurta shirts for men</p>
+        <h3 class="text-xl font-semibold mb-2">₹302</h3>
+        <button class="bg-blue-500 px-3 mt-3 py-2 rounded-[10px] text-white font-bold" >ADD TO CARD</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 SHOPPING All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>

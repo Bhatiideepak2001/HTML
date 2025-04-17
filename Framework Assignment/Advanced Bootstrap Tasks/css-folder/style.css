@@ -1,0 +1,15 @@
+:root{
+    --bs-black: #000000;
+    --bs-box-shadow-inset: inset 0rem 0rem 1rem rgb(0, 0, 0);
+    --bs-border-radius-pill:50rem;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contact-btn{
+    color:var(--bs-black);
+    box-shadow:var(  --bs-box-shadow-inset);
+    border-radius: var( --bs-border-radius-pill);
+}

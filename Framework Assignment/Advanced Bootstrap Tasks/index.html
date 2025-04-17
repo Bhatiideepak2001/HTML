@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+    crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css-folder/style.css">
+  </head>
+  <body>
+    <div class="header text-center bg-dark text-white my-3">
+      <h1>PORTFOLIO PAGE</h1>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/p1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/p2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/p3.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev"type="button"data-bs-target="#carouselExample"data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button"data-bs-target="#carouselExample"data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="modal fade"id="exampleModal"tabindex="-1"aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">CONTACT US</h1>
+            <button type="button"class="btn-close"data-bs-dismiss="modal"aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="name">
+                <input type="text"class="form-control"placeholder="NAME"aria-label="Username"aria-describedby="basic-addon1"/>
+              </div>
+              <div class="email mt-4">
+                <input  type="email"class="form-control"placeholder="E_MAIL" aria-label="Username"aria-describedby="basic-addon1"/>
+              </div>
+              <div class="email mt-4">
+                <textarea class="form-control"id="exampleFormControlTextarea1"placeholder="MESSAGE"rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn contact-btn m-auto d-block btn-primary my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Contact Us
+    </button>
+
+  </body>
+</html>
